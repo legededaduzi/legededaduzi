@@ -1,7 +1,12 @@
 <!--
   GitHub Profile README — XinJie Zhang
-  Publication staging copy.
 -->
+
+<p align="right">
+  <strong>English</strong>
+  &nbsp;·&nbsp;
+  <a href="./README.zh-CN.md">简体中文</a>
+</p>
 
 <div align="center">
   <img src="./assets/profile/hero.svg" width="100%" alt="Robotics systems visualization: perception, autonomy, and embedded hardware" />
@@ -32,7 +37,7 @@
   <tr>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:250px; object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
       <p>
@@ -55,7 +60,7 @@
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/uav.png" width="420" height="285" alt="Autonomous UAV navigation visualization" style="display:block; width:100%; height:250px; object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/uav.png" width="420" height="285" alt="Autonomous UAV navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🚁 UAV</h2>
       <p><strong>Autonomous Drone System</strong></p>
@@ -74,9 +79,7 @@
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/embedded.png" width="100%" alt="Embedded robotics 
-        navigation visualization" style="display:block; width:100%; height:250px; 
-        object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/embedded.png" width="100%" alt="Embedded robotics navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🔧 Embedded</h2>
       <p><strong>Embedded Robotics Hardware</strong></p>
