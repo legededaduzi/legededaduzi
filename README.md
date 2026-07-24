@@ -1,16 +1,65 @@
-## Hi there 👋
+# Hi 👋 I'm XinJie Zhang
 
-<!--
-**legededaduzi/legededaduzi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Graduate Student in Mechanical Engineering
 
-Here are some ideas to get you started:
+🤖 Robotics | SLAM | UAV | Embedded System
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## 🚀 About Me
+
+I am working on lightweight and efficient SLAM systems,
+especially LiDAR-Inertial-Visual fusion for robotics applications.
+
+
+## 🔥 Current Project
+
+### Mini-LIO
+
+A lightweight LiDAR-Inertial Odometry system based on ROS2 Humble.
+
+Features:
+
+- FAST-LIO2 style Iterated ESKF backend
+- ikd-Tree local map
+- ROS2 Humble support
+- Gazebo simulation with Livox MID360 and RealSense D435
+- Real-world UAV experiments
+
+
+## 🛠️ Skills
+
+### Robotics
+
+- ROS2 Humble
+- SLAM
+- LIO / VIO
+- Sensor Calibration
+- UAV System Integration
+
+
+### Programming
+
+- C++
+- Python
+- MATLAB
+
+
+### Embedded
+
+- STM32
+- PCB Design
+- CAN / UART / SPI / I2C
+
+
+## 📌 Projects
+
+| Project | Description |
+|---|---|
+| mini-lio | Lightweight LiDAR-Inertial Odometry |
+| ros2-gazebo-sensor | Simulation environment for MID360/D435 |
+| UAV-platform | UAV hardware and control system |
+
+
+## 📫 Contact
+
+GitHub: https://github.com/你的用户名
