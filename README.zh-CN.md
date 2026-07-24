@@ -12,7 +12,7 @@
   <br />
 
   <h1>XinJie Zhang</h1>
-  <h3>机器人工程师</h3>
+  <h3>机器人工程专业</h3>
 
   <p>
     <code>SLAM</code>&nbsp;&nbsp;·&nbsp;&nbsp;
