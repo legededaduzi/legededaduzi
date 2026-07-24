@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="ROS2 Gazebo autonomous UAV simulation environment">
+  <defs>
+    <linearGradient id="gbg" x2="1" y2="1"><stop stop-color="#06101c"/><stop offset=".6" stop-color="#0a1c2e"/><stop offset="1" stop-color="#071722"/></linearGradient>
+    <pattern id="gg" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#4ca3dc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="900" height="440" rx="14" fill="url(#gbg)"/><rect width="900" height="440" rx="14" fill="url(#gg)"/>
+  <!-- simulation room -->
+  <g fill="none" stroke="#368fc2" stroke-opacity=".42" stroke-width="2">
+    <path d="M123 335V143l326-78 328 78v192L449 394z"/>
+    <path d="M449 65v329M123 143l326 93 328-93M123 335l326-99 328 99"/>
+    <path d="M218 166v140M681 166v140"/>
+  </g>
+  <g fill="none" stroke="#2a759f" stroke-opacity=".28">
+    <path d="M165 347l284-111 285 111M214 361l235-125 236 125M278 375l171-139 172 139M356 388l93-152 94 152"/>
+    <path d="M151 326h596M181 304h536M213 281h472M253 259h392"/>
+  </g>
+  <!-- UAV -->
+  <g transform="translate(465 202)" stroke="#62bff6" fill="none" stroke-width="3">
+    <path d="M-51 0H51M-27 0l-34-30M27 0l34-30M-27 0l-34 30M27 0l34 30"/>
+    <circle r="14" fill="#0b2f49"/><circle cx="-66" cy="-35" r="16"/><circle cx="66" cy="-35" r="16"/>
+    <circle cx="-66" cy="35" r="16"/><circle cx="66" cy="35" r="16"/>
+  </g>
+  <!-- trajectory and sensor frustum -->
+  <path d="M227 283C288 256 331 267 373 230s81-37 119-17 73 4 118-43 85-41 126-58" fill="none" stroke="#25d5a8" stroke-width="3" stroke-dasharray="6 6"/>
+  <g fill="#25d5a8"><circle cx="227" cy="283" r="5"/><circle cx="373" cy="230" r="5"/><circle cx="492" cy="213" r="5"/><circle cx="610" cy="170" r="5"/><circle cx="736" cy="112" r="5"/></g>
+  <path d="M465 215l-119 111M465 215l143 111" fill="#1383c4" fill-opacity=".07" stroke="#1a8bd0" stroke-opacity=".42"/>
+  <text x="34" y="48" fill="#cbe9fa" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">ROS2–Gazebo Simulation</text>
+  <text x="34" y="73" fill="#67a5ca" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">AUTONOMY VALIDATION ENVIRONMENT</text>
+  <g transform="translate(739 35)"><circle r="5" fill="#25d5a8"/><text x="13" y="4" fill="#25d5a8" font-family="Segoe UI,Arial" font-size="11" letter-spacing="1">SIMULATION</text></g>
+  <rect x=".5" y=".5" width="899" height="439" rx="13.5" fill="none" stroke="#2679ab" stroke-opacity=".5"/>
+</svg>

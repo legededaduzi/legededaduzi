@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="Mini-LIO point cloud mapping project">
+  <defs>
+    <linearGradient id="mbg" x2="1" y2="1"><stop stop-color="#06101c"/><stop offset=".6" stop-color="#0a1c2e"/><stop offset="1" stop-color="#071722"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#1e78ac" stop-opacity=".15"/><stop offset="1" stop-color="#24d5a8" stop-opacity=".02"/></linearGradient>
+    <pattern id="mg" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#4ca3dc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="900" height="440" rx="14" fill="url(#mbg)"/><rect width="900" height="440" rx="14" fill="url(#mg)"/>
+  <path d="M108 353L325 131h250l219 222z" fill="url(#floor)" stroke="#2b88bd" stroke-opacity=".3"/>
+  <g fill="none" stroke="#318ebf" stroke-opacity=".28">
+    <path d="M148 353l195-196M226 353l151-196M305 353l107-196M383 353l64-196M461 353l20-196M539 353l-24-196M617 353l-67-196M695 353L584 157M773 353L619 157"/>
+    <path d="M130 331h640M164 297h572M198 263h504M233 227h434M271 189h358"/>
+  </g>
+  <g fill="#55b8ef">
+    <circle cx="132" cy="349" r="3"/><circle cx="164" cy="317" r="2"/><circle cx="188" cy="292" r="3"/><circle cx="220" cy="261" r="2"/>
+    <circle cx="246" cy="233" r="3"/><circle cx="275" cy="201" r="2"/><circle cx="303" cy="177" r="3"/><circle cx="330" cy="145" r="2"/>
+    <circle cx="768" cy="349" r="3"/><circle cx="735" cy="319" r="2"/><circle cx="711" cy="290" r="3"/><circle cx="682" cy="263" r="2"/>
+    <circle cx="651" cy="232" r="3"/><circle cx="626" cy="205" r="2"/><circle cx="599" cy="177" r="3"/><circle cx="572" cy="145" r="2"/>
+  </g>
+  <g fill="#248acb" opacity=".8">
+    <circle cx="255" cy="328" r="3"/><circle cx="284" cy="301" r="2"/><circle cx="319" cy="314" r="3"/><circle cx="357" cy="274" r="2"/>
+    <circle cx="392" cy="287" r="3"/><circle cx="429" cy="248" r="2"/><circle cx="469" cy="269" r="3"/><circle cx="503" cy="224" r="2"/>
+    <circle cx="547" cy="253" r="3"/><circle cx="582" cy="214" r="2"/><circle cx="620" cy="241" r="3"/>
+  </g>
+  <path d="M164 342C251 340 278 302 347 306s93-38 147-51 103 10 155-48 92-34 126-59" fill="none" stroke="#26d6aa" stroke-width="4"/>
+  <g fill="#26d6aa"><circle cx="164" cy="342" r="6"/><circle cx="347" cy="306" r="5"/><circle cx="494" cy="255" r="5"/><circle cx="649" cy="207" r="5"/><circle cx="775" cy="148" r="6"/></g>
+  <g transform="translate(494 255)">
+    <circle r="36" fill="#09243a" stroke="#57baff" stroke-width="2"/>
+    <path d="M-14 10v-22L0-22l14 10v22L0 20z" fill="#46aee8"/><circle r="5" fill="#26d6aa"/>
+    <path d="M0-36v-28M36 0h28M0 36v28M-36 0h-28" stroke="#26d6aa" stroke-width="2" stroke-dasharray="3 4"/>
+  </g>
+  <text x="34" y="48" fill="#cbe9fa" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Mini-LIO</text>
+  <text x="34" y="73" fill="#67a5ca" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">LIGHTWEIGHT LIDAR-INERTIAL ODOMETRY</text>
+  <g transform="translate(735 35)"><circle r="5" fill="#26d6aa"/><text x="13" y="4" fill="#26d6aa" font-family="Segoe UI,Arial" font-size="11" letter-spacing="1">REAL-TIME</text></g>
+  <rect x=".5" y=".5" width="899" height="439" rx="13.5" fill="none" stroke="#2679ab" stroke-opacity=".5"/>
+</svg>

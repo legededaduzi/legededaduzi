@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270">
+  <defs>
+    <linearGradient id="ebg" x2="1" y2="1"><stop stop-color="#081421"/><stop offset="1" stop-color="#0b2032"/></linearGradient>
+    <pattern id="eg" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#54a7dc" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="600" height="270" rx="12" fill="url(#ebg)"/><rect width="600" height="270" rx="12" fill="url(#eg)"/>
+  <g fill="none" stroke="#278cca" stroke-width="2">
+    <path d="M80 81h106l30 30h68M80 189h106l30-30h68M520 81H414l-30 30h-68M520 189H414l-30-30h-68"/>
+    <path d="M95 135h125M505 135H380"/>
+  </g>
+  <g fill="#25d4a8"><circle cx="80" cy="81" r="5"/><circle cx="80" cy="189" r="5"/><circle cx="95" cy="135" r="5"/><circle cx="520" cy="81" r="5"/><circle cx="520" cy="189" r="5"/><circle cx="505" cy="135" r="5"/></g>
+  <g transform="translate(300 135)">
+    <rect x="-82" y="-63" width="164" height="126" rx="8" fill="#0b2a42" stroke="#59b8ef" stroke-width="2"/>
+    <rect x="-46" y="-35" width="92" height="70" rx="4" fill="#0e3a56" stroke="#25d4a8" stroke-width="2"/>
+    <path d="M-64-63v-18M-32-63v-18M0-63v-18M32-63v-18M64-63v-18M-64 63v18M-32 63v18M0 63v18M32 63v18M64 63v18" stroke="#59b8ef" stroke-width="3"/>
+    <path d="M-82-43h-18M-82-14h-18M-82 14h-18M-82 43h-18M82-43h18M82-14h18M82 14h18M82 43h18" stroke="#59b8ef" stroke-width="3"/>
+    <text y="5" text-anchor="middle" fill="#b9dcf2" font-family="Segoe UI,Arial" font-size="18" font-weight="600">STM32</text>
+  </g>
+  <text x="26" y="36" fill="#68a5ca" font-family="Segoe UI,Arial" font-size="12" letter-spacing="2">EMBEDDED / INTERFACES</text>
+  <text x="574" y="240" text-anchor="end" fill="#25d4a8" font-family="Segoe UI,Arial" font-size="11">FIRMWARE — HARDWARE</text>
+  <rect x=".5" y=".5" width="599" height="269" rx="11.5" fill="none" stroke="#23668f" stroke-opacity=".5"/>
+</svg>
