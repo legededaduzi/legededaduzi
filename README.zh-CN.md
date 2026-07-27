@@ -47,7 +47,7 @@
       <h2>🛰️ SLAM</h2>
       <p>
         <a href="https://github.com/legededaduzi/mini-livo">
-          <strong>mini-LIVO ↗</strong>
+          <strong>Mini-LIVO ↗</strong>
         </a>
       </p>
       <p><sub>轻量级激光雷达—惯性—视觉 SLAM 框架</sub></p>
