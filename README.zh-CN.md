@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-  <img src="./assets/profile/hero.svg" width="100%" alt="机器人感知、自主系统与嵌入式硬件技术图" />
+  <img src="./assets/profile/scens.gif" width="80%" alt="机器人感知、自主系统与嵌入式硬件技术图" />
 
   <br />
 
