@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="./assets/profile/hero.svg" width="100%" alt="Robotics systems visualization: perception, autonomy, and embedded hardware" />
+  <img src="./assets/profile/scens.gif" width="100%" height="40%" alt="Robotics systems visualization: perception, autonomy, and embedded hardware" />
 
   <br />
 
