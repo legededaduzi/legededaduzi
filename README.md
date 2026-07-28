@@ -13,7 +13,7 @@
   <img
     src="./assets/profile/scens.gif"
     width="100%"
-    height="300"
+    height="250"
     style="object-fit: fill;"
   />
 </div>
