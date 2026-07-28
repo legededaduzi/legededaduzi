@@ -45,57 +45,45 @@
         <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM 点云地图与轨迹可视化" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p><strong>雷达—惯性—视觉 SLAM 框架</strong></p>
-      <p><sub>多传感器融合优化系统</sub></p>
+      <p><strong>雷达-IMU-视觉融合SLAM系统框架</strong></p>
+      <p><sub>围绕定位、建图与多传感器融合，自主完成核心模块研发</sub></p>
       <ul>
-        <li>激光雷达—惯性里程计</li>
-        <li>迭代误差状态卡尔曼滤波</li>
-        <li> 增量式建图</li>
-        <li>双目视觉融合</li>
-        <li>多传感器标定</li>
+        <li>雷达—惯性里程计</li>
+        <li>迭代误差状态卡尔曼滤波（IESKF）</li>
+        <li>增量式建图与地图管理</li>
+        <li>双目视觉融合与多传感器标定</li>
       </ul>
-      <p>
-        <code>ROS2 Humble</code> <code>C++17</code> <code>Eigen</code><br />
-        <code>Sophus</code> <code>PCL</code> <code>Gazebo</code>
-      </p>
+      <p><sub>工程实现：ROS2 · C++ · LiDAR / IMU / Vision</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
         <img src="./assets/profile/uav.png" width="420" height="285" alt="自主无人机系统" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🚁 无人机</h2>
-      <p><strong>自主无人机系统</strong></p>
-      <p><sub>从仿真测试到真实飞行的自主系统</sub></p>
+      <p><strong>PX4-ROS2无人机自主系统</strong></p>
+      <p><sub>自主完成机架与保护圈设计、机载硬件搭建及整机系统联调</sub></p>
       <ul>
-        <li>PX4 系统集成</li>
-        <li>无人机硬件平台</li>
-        <li>ROS2 通信</li>
-        <li>仿真测试</li>
-        <li>真实飞行部署</li>
+        <li>无人机机架与螺旋桨保护圈设计</li>
+        <li>飞控、机载计算平台与传感器硬件搭建</li>
+        <li>PX4–ROS2 通信与 MAVLink 控制</li>
+        <li>Gazebo 仿真与实机飞行验证</li>
       </ul>
-      <p>
-        <code>PX4</code> <code>Gazebo</code> <code>ROS2</code><br />
-        <code>MAVLink</code> <code>Sensor Fusion</code>
-      </p>
+      <p><sub>工程实现：自研机架 · PX4 · ROS2 · Gazebo</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
         <img src="./assets/profile/embedded.png" width="100%" alt="嵌入式机器人控制器" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🔧 嵌入式</h2>
-      <p><strong>机器人嵌入式硬件</strong></p>
-      <p><sub>面向机器人平台的可靠电子系统</sub></p>
+      <p><strong>STM32机器人嵌入式控制系统</strong></p>
+      <p><sub>围绕硬件、固件与设备通信，自主完成控制器设计和系统联调</sub></p>
       <ul>
-        <li>STM32 固件开发</li>
-        <li>PCB 设计</li>
-        <li>传感器驱动</li>
-        <li>通信接口</li>
-        <li>硬件调试</li>
+        <li>主控与外围电路设计</li>
+        <li>PCB 设计、焊接与硬件调试</li>
+        <li>传感器驱动与数据采集</li>
+        <li>CAN / UART / SPI / I2C 通信接口</li>
       </ul>
-      <p>
-        <code>STM32</code> <code>CAN</code> <code>UART</code><br />
-        <code>SPI</code> <code>I2C</code> <code>PCB</code>
-      </p>
+      <p><sub>工程实现：STM32 · PCB · CAN / UART / SPI / I2C</sub></p>
     </td>
   </tr>
 </table>
@@ -126,7 +114,7 @@
         <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo 机器人仿真项目封面" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 ROS2–Gazebo 机器人仿真</a>
+        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 PX4_AeroFusion仿真平台</a>
       </h3>
       <p>面向自主系统验证的完整机器人仿真环境。</p>
       <p>
@@ -149,25 +137,29 @@
       <h4>机器人</h4>
       <code>ROS2</code><br /><br />
       <code>SLAM</code> <code>LIO</code><br /><br />
-      <code>VIO</code> <code>Gazebo</code>
+      <code>VIO</code> <code>Gazebo</code><br /><br />
+      <code>坐标系标定</code>
     </td>
     <td width="25%" valign="top">
       <h4>编程</h4>
       <code>C++17</code><br /><br />
       <code>Python</code><br /><br />
-      <code>Eigen</code> <code>PCL</code>
+      <code>Eigen</code> <code>PCL</code><br /><br />
+      <code>Sophus</code>
     </td>
     <td width="25%" valign="top">
       <h4>嵌入式</h4>
       <code>STM32</code><br /><br />
       <code>CAN</code> <code>UART</code><br /><br />
-      <code>SPI</code> <code>I2C</code>
+      <code>SPI</code> <code>I2C</code><br /><br />
+      <code>RS-485</code>
     </td>
     <td width="25%" valign="top">
       <h4>硬件</h4>
       <code>PCB</code><br /><br />
       <code>传感器</code> <code>无人机</code><br /><br />
-      <code>硬件调试</code>
+      <code>硬件调试</code><br /><br />
+      <code>焊接</code>
     </td>
   </tr>
 </table>
