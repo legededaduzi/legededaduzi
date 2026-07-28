@@ -48,6 +48,7 @@
       </p>
       <h2>🛰️ SLAM</h2>
       <p><strong>A lightweight LiDAR-Inertial-Visual SLAM framework.</strong></p>
+      <p><sub>Autonomy Multi-Sensor Fusion System</sub></p>
       <ul>
         <li>LiDAR-Inertial Odometry</li>
         <li>Iterated Error State Kalman Filter</li>
