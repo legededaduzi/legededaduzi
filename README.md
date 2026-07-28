@@ -47,7 +47,7 @@
         <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p><strong>A lightweight LiDAR-Inertial-Visual SLAM framework.</strong></p>
+      <p><strong>A LiDAR-Inertial-Visual SLAM framework</strong></p>
       <p><sub>Autonomy Multi-Sensor Fusion System</sub></p>
       <ul>
         <li>LiDAR-Inertial Odometry</li>
