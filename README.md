@@ -9,12 +9,19 @@
 </p>
 
 <div align="center">
-  <img src="./assets/profile/scens.gif" width="100%" height="80%" alt="Robotics systems visualization: perception, autonomy, and embedded hardware" />
+<div align="center">
+  <img
+    src="./assets/profile/scens.gif"
+    width="100%"
+    height="300"
+    style="object-fit: fill;"
+  />
+</div>
 
   <br />
 
-  <h1>XinJie Zhang</h1>
-  <h3>Robotics Engineer</h3>
+  <h1>Xinjie Zhang</h1>
+  <h3>Mechanical Engineering</h3>
 
   <p>
     <code>SLAM</code>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -25,7 +32,7 @@
   <p><strong>Building robotic systems from algorithms to real-world deployment.</strong></p>
   <p>
     Algorithm Development&nbsp;&nbsp;·&nbsp;&nbsp;Software Architecture&nbsp;&nbsp;·&nbsp;&nbsp;
-    Hardware Integration&nbsp;&nbsp;·&nbsp;&nbsp;Field Deployment
+    Simulation&nbsp;&nbsp;·&nbsp;&nbsp;Hardware Integration&nbsp;&nbsp;·&nbsp;&nbsp;Field Deployment
   </p>
 </div>
 
@@ -40,16 +47,11 @@
         <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p>
-        <a href="https://github.com/legededaduzi/mini-livo">
-          <strong>Mini-LIO ↗</strong>
-        </a>
-      </p>
-      <p><sub>Lightweight LiDAR-Inertial-Visual SLAM Framework</sub></p>
+      <p><strong>A lightweight LiDAR-Inertial-Visual SLAM framework.</strong></p>
       <ul>
         <li>LiDAR-Inertial Odometry</li>
         <li>Iterated Error State Kalman Filter</li>
-        <li>ikd-Tree Mapping</li>
+        <li>Incremental Mapping</li>
         <li>Stereo Vision Fusion</li>
         <li>Sensor Calibration</li>
       </ul>
@@ -107,7 +109,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/legededaduzi/mini-livo">
-        <img src="./assets/profile/project-mini-lio.svg" width="100%" alt="Mini-LIO project cover" />
+        <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIVO project cover" />
       </a>
       <h3>
         <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
@@ -121,17 +123,19 @@
       <p><a href="https://github.com/legededaduzi/mini-livo"><strong>Explore the system →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/legededaduzi/mini-lio-sim">
-        <img src="./assets/profile/project-simulation.svg" width="100%" alt="ROS2 Gazebo robotics simulation project cover" />
+      <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">
+        <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo robotics simulation project cover" />
       </a>
-      <h3>🌎 ROS2–Gazebo Robotics Simulation</h3>
+      <h3>
+        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 ROS2–Gazebo Robotics Simulation</a>
+      </h3>
       <p>A complete robotics simulation environment for autonomy validation.</p>
       <p>
         <strong>PX4 UAV Simulation</strong> · Livox MID360 Model<br />
         RealSense D435 Model · Indoor / Tunnel Environment<br />
         Reproducible SLAM Evaluation
       </p>
-      <p><a href="https://github.com/legededaduzi/mini-lio-sim"><strong>Explore the platform →</strong></a></p>
+      <p><a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim"><strong>Explore the platform →</strong></a></p>
     </td>
   </tr>
 </table>

@@ -7,12 +7,19 @@
 </p>
 
 <div align="center">
-  <img src="./assets/profile/scens.gif" width="100%" height="80%" alt="机器人感知、自主系统与嵌入式硬件技术图" />
+<div align="center">
+  <img
+    src="./assets/profile/scens.gif"
+    width="100%"
+    height="300"
+    style="object-fit: fill;"
+  />
+</div>
 
   <br />
 
-  <h1>XinJie Zhang</h1>
-  <h3>机器人工程专业</h3>
+  <h1>张心杰</h1>
+  <h3>机械工程专业</h3>
 
   <p>
     <code>SLAM</code>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -23,7 +30,7 @@
   <p><strong>构建从算法研究到真实环境部署的完整机器人系统。</strong></p>
   <p>
     算法开发&nbsp;&nbsp;·&nbsp;&nbsp;软件架构&nbsp;&nbsp;·&nbsp;&nbsp;
-    硬件集成&nbsp;&nbsp;·&nbsp;&nbsp;实机部署
+    仿真模拟&nbsp;&nbsp;·&nbsp;&nbsp;硬件集成&nbsp;&nbsp;·&nbsp;&nbsp;实机部署
   </p>
 </div>
 
@@ -38,16 +45,11 @@
         <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM 点云地图与轨迹可视化" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p>
-        <a href="https://github.com/legededaduzi/mini-livo">
-          <strong>Mini-LIO ↗</strong>
-        </a>
-      </p>
-      <p><sub>轻量级激光雷达—惯性—视觉 SLAM 框架</sub></p>
+      <p><strong>雷达—惯性—视觉 SLAM 框架</strong></p>
       <ul>
         <li>激光雷达—惯性里程计</li>
         <li>迭代误差状态卡尔曼滤波</li>
-        <li>ikd-Tree 增量建图</li>
+        <li> 增量式建图</li>
         <li>双目视觉融合</li>
         <li>多传感器标定</li>
       </ul>
@@ -105,7 +107,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/legededaduzi/mini-livo">
-        <img src="./assets/profile/project-mini-lio.svg" width="100%" alt="Mini-LIO 项目封面" />
+        <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIO 项目封面" />
       </a>
       <h3>
         <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
@@ -119,17 +121,19 @@
       <p><a href="https://github.com/legededaduzi/mini-livo"><strong>查看系统 →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/legededaduzi/mini-lio-sim">
-        <img src="./assets/profile/project-simulation.svg" width="100%" alt="ROS2 Gazebo 机器人仿真项目封面" />
+      <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">
+        <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo 机器人仿真项目封面" />
       </a>
-      <h3>🌎 ROS2–Gazebo 机器人仿真</h3>
+      <h3>
+        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 ROS2–Gazebo 机器人仿真</a>
+      </h3>
       <p>面向自主系统验证的完整机器人仿真环境。</p>
       <p>
         <strong>PX4 无人机仿真</strong> · Livox MID360 模型<br />
         RealSense D435 模型 · 室内 / 隧道环境<br />
         可复现的 SLAM 评估
       </p>
-      <p><a href="https://github.com/legededaduzi/mini-lio-sim"><strong>查看仿真平台 →</strong></a></p>
+      <p><a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim"><strong>查看仿真平台 →</strong></a></p>
     </td>
   </tr>
 </table>
