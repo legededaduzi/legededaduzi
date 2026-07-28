@@ -13,7 +13,7 @@
   <img
     src="./assets/profile/scens.gif"
     width="100%"
-    height="250"
+    height="300"
     style="object-fit: fill;"
   />
 </div>
@@ -47,57 +47,45 @@
         <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p><strong>A LiDAR-Inertial-Visual SLAM framework</strong></p>
-      <p><sub>Autonomy Multi-Sensor Fusion System</sub></p>
+      <p><strong>LiDAR–IMU–Vision Fusion SLAM Framework</strong></p>
+      <p><sub>Independently developed core modules for localization, mapping, and multi-sensor fusion</sub></p>
       <ul>
-        <li>LiDAR-Inertial Odometry</li>
-        <li>Iterated Error State Kalman Filter</li>
-        <li>Incremental Mapping</li>
-        <li>Stereo Vision Fusion</li>
-        <li>Sensor Calibration</li>
+        <li>LiDAR–Inertial Odometry</li>
+        <li>Iterated Error State Kalman Filter (IESKF)</li>
+        <li>Incremental Mapping and Map Management</li>
+        <li>Stereo Vision Fusion and Multi-Sensor Calibration</li>
       </ul>
-      <p>
-        <code>ROS2 Humble</code> <code>C++17</code> <code>Eigen</code><br />
-        <code>Sophus</code> <code>PCL</code> <code>Gazebo</code>
-      </p>
+      <p><sub>Implemented with ROS2 · C++ · LiDAR / IMU / Vision</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
         <img src="./assets/profile/uav.png" width="420" height="285" alt="Autonomous UAV navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🚁 UAV</h2>
-      <p><strong>Autonomous Drone System</strong></p>
-      <p><sub>Autonomy Stack from Simulation to Flight</sub></p>
+      <p><strong>PX4–ROS2 Autonomous UAV System</strong></p>
+      <p><sub>Independently designed the airframe and propeller guards, assembled the onboard hardware, and integrated the complete system</sub></p>
       <ul>
-        <li>PX4 Integration</li>
-        <li>UAV Hardware Platform</li>
-        <li>ROS2 Communication</li>
-        <li>Simulation Testing</li>
-        <li>Real Flight Deployment</li>
+        <li>Custom Airframe and Propeller Guard Design</li>
+        <li>Flight Controller, Onboard Computer, and Sensor Assembly</li>
+        <li>PX4–ROS2 Communication and MAVLink Control</li>
+        <li>Gazebo Simulation and Real-Flight Validation</li>
       </ul>
-      <p>
-        <code>PX4</code> <code>Gazebo</code> <code>ROS2</code><br />
-        <code>MAVLink</code> <code>Sensor Fusion</code>
-      </p>
+      <p><sub>Implemented with Custom Airframe · PX4 · ROS2 · Gazebo</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
         <img src="./assets/profile/embedded.png" width="100%" alt="Embedded robotics navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🔧 Embedded</h2>
-      <p><strong>Embedded Robotics Hardware</strong></p>
-      <p><sub>Reliable Electronics for Robotic Platforms</sub></p>
+      <p><strong>STM32 Robotic Embedded Control System</strong></p>
+      <p><sub>Independently designed the controller hardware, firmware, device communication, and system integration</sub></p>
       <ul>
-        <li>STM32 Firmware</li>
-        <li>PCB Design</li>
-        <li>Sensor Driver</li>
-        <li>Communication Interface</li>
-        <li>Hardware Debugging</li>
+        <li>MCU and Peripheral Circuit Design</li>
+        <li>PCB Design, Soldering, and Hardware Debugging</li>
+        <li>Sensor Drivers and Data Acquisition</li>
+        <li>CAN / UART / SPI / I2C Communication Interfaces</li>
       </ul>
-      <p>
-        <code>STM32</code> <code>CAN</code> <code>UART</code><br />
-        <code>SPI</code> <code>I2C</code> <code>PCB</code>
-      </p>
+      <p><sub>Implemented with STM32 · PCB · CAN / UART / SPI / I2C</sub></p>
     </td>
   </tr>
 </table>
@@ -128,7 +116,7 @@
         <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo robotics simulation project cover" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 ROS2–Gazebo Robotics Simulation</a>
+        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 PX4_AeroFusion Simulation Platform</a>
       </h3>
       <p>A complete robotics simulation environment for autonomy validation.</p>
       <p>
@@ -151,25 +139,29 @@
       <h4>ROBOTICS</h4>
       <code>ROS2</code><br /><br />
       <code>SLAM</code> <code>LIO</code><br /><br />
-      <code>VIO</code> <code>Gazebo</code>
+      <code>VIO</code> <code>Gazebo</code><br /><br />
+      <code>Frame Calibration</code>
     </td>
     <td width="25%" valign="top">
       <h4>PROGRAMMING</h4>
       <code>C++17</code><br /><br />
       <code>Python</code><br /><br />
-      <code>Eigen</code> <code>PCL</code>
+      <code>Eigen</code> <code>PCL</code><br /><br />
+      <code>Sophus</code>
     </td>
     <td width="25%" valign="top">
       <h4>EMBEDDED</h4>
       <code>STM32</code><br /><br />
       <code>CAN</code> <code>UART</code><br /><br />
-      <code>SPI</code> <code>I2C</code>
+      <code>SPI</code> <code>I2C</code><br /><br />
+      <code>RS-485</code>
     </td>
     <td width="25%" valign="top">
       <h4>HARDWARE</h4>
       <code>PCB</code><br /><br />
       <code>Sensors</code> <code>UAV</code><br /><br />
-      <code>Debugging</code>
+      <code>Debugging</code><br /><br />
+      <code>Soldering</code>
     </td>
   </tr>
 </table>
