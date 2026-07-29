@@ -101,7 +101,7 @@
         <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIVO project cover" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
+        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIVO ↗</a>
       </h3>
       <p>A lightweight LiDAR-Inertial Odometry framework based on ROS2.</p>
       <p>
