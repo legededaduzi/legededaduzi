@@ -1,7 +1,7 @@
 <!-- GitHub 个人主页 README — XinJie Zhang -->
 
 <p align="right">
-  <a href="./README.md">English</a>
+  <a href="./README.zh-CN.md">English</a>
   &nbsp;·&nbsp;
   <strong>简体中文</strong>
 </p>
@@ -99,7 +99,7 @@
         <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIO 项目封面" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
+        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LVIO ↗</a>
       </h3>
       <p>基于 ROS2 的轻量级激光雷达—惯性里程计框架。</p>
       <p>
@@ -124,6 +124,22 @@
       </p>
       <p><a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim"><strong>查看仿真平台 →</strong></a></p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/legededaduzi/5inch-slam-UAV">
+        <img src="./assets/profile/ass.gif" width="100%" alt="5.5 英寸 SLAM 无人机项目封面" />
+      </a>
+      <h3><a href="https://github.com/legededaduzi/5inch-slam-UAV">🚁 5.5 英寸 SLAM 无人机 ↗</a></h3>
+      <p>面向室内巡检、狭窄空间探索与 SLAM 算法验证的紧凑型自主无人机平台。</p>
+      <p>
+        <strong>自研碳纤维机架</strong> · PX4 飞行控制<br />
+        Livox MID-360 · RealSense D435i<br />
+        Jetson Orin NX · PETG-CF 防撞圈
+      </p>
+      <p><a href="https://github.com/legededaduzi/5inch-slam-UAV"><strong>查看无人机项目 →</strong></a></p>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
