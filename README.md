@@ -1,11 +1,9 @@
-<!--
-  GitHub Profile README — XinJie Zhang
--->
+<!-- GitHub 个人主页 README — XinJie Zhang -->
 
 <p align="right">
-  <strong>English</strong>
+  <a href="./README.zh-CN.md">English</a>
   &nbsp;·&nbsp;
-  <a href="./README.zh-CN.md">简体中文</a>
+  <strong>简体中文</strong>
 </p>
 
 <div align="center">
@@ -20,168 +18,184 @@
 
   <br />
 
-  <h1>Xinjie Zhang</h1>
-  <h3>Mechanical Engineering</h3>
+  <h1>张心杰</h1>
+  <h3>机械工程专业</h3>
 
   <p>
     <code>SLAM</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <code>UAV Autonomous Systems</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <code>Embedded Systems</code>
+    <code>无人机自主系统</code>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <code>嵌入式系统</code>
   </p>
 
-  <p><strong>Building robotic systems from algorithms to real-world deployment.</strong></p>
+  <p><strong>构建从算法研究到真实环境部署的完整机器人系统。</strong></p>
   <p>
-    Algorithm Development&nbsp;&nbsp;·&nbsp;&nbsp;Software Architecture&nbsp;&nbsp;·&nbsp;&nbsp;
-    Simulation&nbsp;&nbsp;·&nbsp;&nbsp;Hardware Integration&nbsp;&nbsp;·&nbsp;&nbsp;Field Deployment
+    算法开发&nbsp;&nbsp;·&nbsp;&nbsp;软件架构&nbsp;&nbsp;·&nbsp;&nbsp;
+    仿真模拟&nbsp;&nbsp;·&nbsp;&nbsp;硬件集成&nbsp;&nbsp;·&nbsp;&nbsp;实机部署
   </p>
 </div>
 
 <br />
 
-## Core Expertise
+## 核心能力
 
 <table>
   <tr>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM point cloud and trajectory visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/slam.png" width="420" height="285" alt="SLAM 点云地图与轨迹可视化" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
       <h2>🛰️ SLAM</h2>
-      <p><strong>LiDAR–IMU–Vision Fusion SLAM Framework</strong></p>
-      <p><sub>Independently developed core modules for localization, mapping, and multi-sensor fusion</sub></p>
+      <p><strong>雷达-IMU-视觉融合SLAM系统框架</strong></p>
+      <p><sub>围绕定位、建图与多传感器融合，自主完成核心模块研发</sub></p>
       <ul>
-        <li>LiDAR–Inertial Odometry</li>
-        <li>Iterated Error State Kalman Filter (IESKF)</li>
-        <li>Incremental Mapping and Map Management</li>
-        <li>Stereo Vision Fusion and Multi-Sensor Calibration</li>
+        <li>雷达—惯性里程计</li>
+        <li>迭代误差状态卡尔曼滤波（IESKF）</li>
+        <li>增量式建图与地图管理</li>
+        <li>双目视觉融合与多传感器标定</li>
       </ul>
-      <p><sub>Implemented with ROS2 · C++ · LiDAR / IMU / Vision</sub></p>
+      <p><sub>工程实现：ROS2 · C++ · LiDAR / IMU / Vision</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/uav.png" width="420" height="285" alt="Autonomous UAV navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/uav.png" width="420" height="285" alt="自主无人机系统" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
-      <h2>🚁 UAV</h2>
-      <p><strong>PX4–ROS2 Autonomous UAV System</strong></p>
-      <p><sub>Independently designed the airframe and propeller guards, assembled the onboard hardware, and integrated the complete system</sub></p>
+      <h2>🚁 无人机</h2>
+      <p><strong>PX4-ROS2无人机自主系统</strong></p>
+      <p><sub>自主完成机架与保护圈设计、机载硬件搭建及整机系统联调</sub></p>
       <ul>
-        <li>Custom Airframe and Propeller Guard Design</li>
-        <li>Flight Controller, Onboard Computer, and Sensor Assembly</li>
-        <li>PX4–ROS2 Communication and MAVLink Control</li>
-        <li>Gazebo Simulation and Real-Flight Validation</li>
+        <li>无人机机架与螺旋桨保护圈设计</li>
+        <li>飞控、机载计算平台与传感器硬件搭建</li>
+        <li>PX4–ROS2 通信与 MAVLink 控制</li>
+        <li>Gazebo 仿真与实机飞行验证</li>
       </ul>
-      <p><sub>Implemented with Custom Airframe · PX4 · ROS2 · Gazebo</sub></p>
+      <p><sub>工程实现：自研机架 · PX4 · ROS2 · Gazebo</sub></p>
     </td>
     <td width="33.33%" valign="top">
       <p align="center">
-        <img src="./assets/profile/embedded.png" width="100%" alt="Embedded robotics navigation visualization" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
+        <img src="./assets/profile/embedded.png" width="100%" alt="嵌入式机器人控制器" style="display:block; width:100%; height:285px; object-fit:contain; object-position:center; background:#2d2d2d;" />
       </p>
-      <h2>🔧 Embedded</h2>
-      <p><strong>STM32 Robotic Embedded Control System</strong></p>
-      <p><sub>Independently designed the controller hardware, firmware, device communication, and system integration</sub></p>
+      <h2>🔧 嵌入式</h2>
+      <p><strong>STM32机器人嵌入式控制系统</strong></p>
+      <p><sub>围绕硬件、固件与设备通信，自主完成控制器设计和系统联调</sub></p>
       <ul>
-        <li>MCU and Peripheral Circuit Design</li>
-        <li>PCB Design, Soldering, and Hardware Debugging</li>
-        <li>Sensor Drivers and Data Acquisition</li>
-        <li>CAN / UART / SPI / I2C Communication Interfaces</li>
+        <li>主控与外围电路设计</li>
+        <li>PCB 设计、焊接与硬件调试</li>
+        <li>传感器驱动与数据采集</li>
+        <li>CAN / UART / SPI / I2C 通信接口</li>
       </ul>
-      <p><sub>Implemented with STM32 · PCB · CAN / UART / SPI / I2C</sub></p>
+      <p><sub>工程实现：STM32 · PCB · CAN / UART / SPI / I2C</sub></p>
     </td>
   </tr>
 </table>
 
 <br />
 
-## Featured Engineering Projects
+## 精选工程项目
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/legededaduzi/mini-livo">
-        <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIVO project cover" />
+        <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIO 项目封面" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIVO ↗</a>
+        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
       </h3>
-      <p>A lightweight LiDAR-Inertial Odometry framework based on ROS2.</p>
+      <p>基于 ROS2 的轻量级激光雷达—惯性里程计框架。</p>
       <p>
-        <strong>Real-time SLAM</strong> · IESKF Backend<br />
-        ikd-Tree Incremental Mapping · MID360 Support<br />
-        D435 Stereo Vision · UAV Deployment
+        <strong>实时 SLAM</strong> · IESKF 后端<br />
+        ikd-Tree 增量建图 · MID360 支持<br />
+        D435 双目视觉 · 无人机部署
       </p>
-      <p><a href="https://github.com/legededaduzi/mini-livo"><strong>Explore the system →</strong></a></p>
+      <p><a href="https://github.com/legededaduzi/mini-livo"><strong>查看系统 →</strong></a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">
-        <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo robotics simulation project cover" />
+        <img src="./assets/profile/PX4_AeroFusion.png" width="100%" alt="ROS2 Gazebo 机器人仿真项目封面" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 PX4_AeroFusion Simulation Platform</a>
+        <a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim">🌎 PX4_AeroFusion仿真平台</a>
       </h3>
-      <p>A complete robotics simulation environment for autonomy validation.</p>
+      <p>面向自主系统验证的完整机器人仿真环境。</p>
       <p>
-        <strong>PX4 UAV Simulation</strong> · Livox MID360 Model<br />
-        RealSense D435 Model · Indoor / Tunnel Environment<br />
-        Reproducible SLAM Evaluation
+        <strong>PX4 无人机仿真</strong> · Livox MID360 模型<br />
+        RealSense D435 模型 · 室内 / 隧道环境<br />
+        可复现的 SLAM 评估
       </p>
-      <p><a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim"><strong>Explore the platform →</strong></a></p>
+      <p><a href="https://github.com/legededaduzi/PX4-AeroFusion-Sim"><strong>查看仿真平台 →</strong></a></p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/legededaduzi/5inch-slam-UAV">
+        <img src="./assets/profile/ass.gif" width="100%" alt="5.5 英寸 SLAM 无人机项目封面" />
+      </a>
+      <h3><a href="https://github.com/legededaduzi/5inch-slam-UAV">🚁 5.5 英寸 SLAM 无人机 ↗</a></h3>
+      <p>面向室内巡检、狭窄空间探索与 SLAM 算法验证的紧凑型自主无人机平台。</p>
+      <p>
+        <strong>自研碳纤维机架</strong> · PX4 飞行控制<br />
+        Livox MID-360 · RealSense D435i<br />
+        Jetson Orin NX · PETG-CF 防撞圈
+      </p>
+      <p><a href="https://github.com/legededaduzi/5inch-slam-UAV"><strong>查看无人机项目 →</strong></a></p>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
 <br />
 
-## Technology Stack
+## 技术栈
 
 <table>
   <tr>
     <td width="25%" valign="top">
-      <h4>ROBOTICS</h4>
+      <h4>机器人</h4>
       <code>ROS2</code><br /><br />
       <code>SLAM</code> <code>LIO</code><br /><br />
       <code>VIO</code> <code>Gazebo</code><br /><br />
-      <code>Frame Calibration</code>
+      <code>坐标系标定</code>
     </td>
     <td width="25%" valign="top">
-      <h4>PROGRAMMING</h4>
+      <h4>编程</h4>
       <code>C++17</code><br /><br />
       <code>Python</code><br /><br />
       <code>Eigen</code> <code>PCL</code><br /><br />
       <code>Sophus</code>
     </td>
     <td width="25%" valign="top">
-      <h4>EMBEDDED</h4>
+      <h4>嵌入式</h4>
       <code>STM32</code><br /><br />
       <code>CAN</code> <code>UART</code><br /><br />
       <code>SPI</code> <code>I2C</code><br /><br />
       <code>RS-485</code>
     </td>
     <td width="25%" valign="top">
-      <h4>HARDWARE</h4>
+      <h4>硬件</h4>
       <code>PCB</code><br /><br />
-      <code>Sensors</code> <code>UAV</code><br /><br />
-      <code>Debugging</code><br /><br />
-      <code>Soldering</code>
+      <code>传感器</code> <code>无人机</code><br /><br />
+      <code>硬件调试</code><br /><br />
+      <code>焊接</code>
     </td>
   </tr>
 </table>
 
 <br />
 
-## Engineering Philosophy
+## 工程理念
 
 <p align="center">
-  <img src="./assets/profile/engineering-pipeline.svg" width="92%" alt="Algorithm to software to hardware to real robot engineering pipeline" />
+  <img src="./assets/profile/engineering-pipeline.svg" width="92%" alt="从算法、软件、硬件到真实机器人的工程流程" />
 </p>
 
 <p align="center">
-  <strong>From mathematical models and production software to integrated hardware and real-world robots.</strong>
+  <strong>从数学模型和工程软件，到硬件集成与真实机器人部署。</strong>
 </p>
 
 <br />
 
 <div align="center">
-  <sub>Open to opportunities in SLAM, robotics perception, autonomous UAV systems, and robotics engineering.</sub>
+  <sub>期待 SLAM、机器人感知、无人机自主系统与机器人工程方向的合作机会。</sub>
   <br /><br />
   <a href="https://github.com/legededaduzi">GitHub</a>
 </div>
