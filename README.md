@@ -99,7 +99,7 @@
         <img src="./assets/profile/mini-livo-cover-v3.png" width="100%" alt="Mini-LIO 项目封面" />
       </a>
       <h3>
-        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIO ↗</a>
+        <a href="https://github.com/legededaduzi/mini-livo">🔥 Mini-LIVO ↗</a>
       </h3>
       <p>基于 ROS2 的轻量级激光雷达—惯性里程计框架。</p>
       <p>
