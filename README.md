@@ -1,7 +1,7 @@
 <!-- GitHub 个人主页 README — XinJie Zhang -->
 
 <p align="right">
-  <a href="./README.zh-CN.md">English</a>
+  <a href="./README-EN.md">English</a>
   &nbsp;·&nbsp;
   <strong>简体中文</strong>
 </p>
