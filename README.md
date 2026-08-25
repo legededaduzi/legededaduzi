@@ -139,7 +139,19 @@
       </p>
       <p><a href="https://github.com/legededaduzi/5inch-slam-UAV"><strong>查看无人机项目 →</strong></a></p>
     </td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/legededaduzi/3dgs-with--LIVO">
+        <img src="./assets/profile/3DGS with LIVO.png" width="100%" alt="3DGS with LIVO 项目封面" />
+      </a>
+      <h3><a href="https://github.com/legededaduzi/3dgs-with--LIVO">✨ 3DGS with LIVO ↗</a></h3>
+      <p>融合双目 RGB-D、里程计与 3D Gaussian Splatting 的 ROS 2 在线稠密建图系统。</p>
+      <p>
+        <strong>在线高斯建图</strong> · 双目 RGB-D 同步<br />
+        关键帧选择 · Gaussian 增密与优化<br />
+        实时渲染预览 · PLY 地图导出
+      </p>
+      <p><a href="https://github.com/legededaduzi/3dgs-with--LIVO"><strong>查看建图系统 →</strong></a></p>
+    </td>
   </tr>
 </table>
 
@@ -154,7 +166,7 @@
       <code>ROS2</code><br /><br />
       <code>SLAM</code> <code>LIO</code><br /><br />
       <code>VIO</code> <code>Gazebo</code><br /><br />
-      <code>坐标系标定</code>
+      <code>3DGS</code>
     </td>
     <td width="25%" valign="top">
       <h4>编程</h4>
@@ -182,15 +194,6 @@
 
 <br />
 
-## 工程理念
-
-<p align="center">
-  <img src="./assets/profile/engineering-pipeline.svg" width="92%" alt="从算法、软件、硬件到真实机器人的工程流程" />
-</p>
-
-<p align="center">
-  <strong>从数学模型和工程软件，到硬件集成与真实机器人部署。</strong>
-</p>
 
 <br />
 
@@ -198,4 +201,6 @@
   <sub>期待 SLAM、机器人感知、无人机自主系统与机器人工程方向的合作机会。</sub>
   <br /><br />
   <a href="https://github.com/legededaduzi">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:zhangxinjie0907@163.com">zhangxinjie0907@163.com</a>
 </div>
